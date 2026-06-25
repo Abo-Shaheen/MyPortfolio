@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="ar">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>contact</title>
+    <link rel="stylesheet" href="style/CreateProject.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Rubik:ital,wght@0,300..900;1,300..900&display=swap" rel="stylesheet">
+</head>
+<body>
+    <div id="loading-overlay">
+        <div class="spinner"></div>
+    </div>
+    
+    <header>
+        <button id="home-btn" class="header-btn">الرئيسيه</button>
+        <button id="create-project-btn1" class="header-btn">ابدأ مشروع</button>
+        <button id="contact" class="header-btn">تواصل معي</button>
+        <button id="CV-btn" class="header-btn">السيره الذاتيه</button>
+    </header>
+
+    <main>
+        <h1>تواصل معي لإنشاء مشروع</h1>
+        <h2>تم ايقاف العمل مؤقتا على المشاريع لسبب الدراسه , لن يتم الرد على اي طلب (المعذرة)</h2>
+        <div class="Glass-edges">
+            <form class="form" action="">
+                <label for="name" >الاسم الكريم</label>
+                <br>
+                <input type="text" name="" id="name" required placeholder="اكتب اسمك هنا">
+                <br><br>
+                <label for="email">البريد الإلكتروني</label>
+                <br>
+                <input type="email" name="" id="email" required placeholder="اكتب الإيميل للتواصل معك">
+                <br><br>
+                <label for="">اكتب وصف المشروع  </label>
+                <br>
+                <textarea name="" id="textarea" placeholder="اكتب وصف المشروع الذي تريدة" required></textarea>
+                <br>
+                <input type="submit" id="submit">
+                <h2>الرسائل مشفرة تماماً بين الطرفين 🔒</h2>
+                <h3>تم ارسال الطلب بنجاح , سوف يتم التواصل معك عبر الإيميل قريباً</h3>
+            </form>
+        </div>
+
+        <div class="fixed-glass">
+            <button class="fixed1">ايقاف التأثيرات</button>
+            <button class="fixed2"><img src="img/light.png" alt=""></button>
+        </div>
+    </main>
+    
+    <script src="https://cdn.jsdelivr.net/npm/@emailjs/browser@4/dist/email.min.js"></script>
+    <script src="script/CreateProject.js"></script>
+</body>
+</html>
