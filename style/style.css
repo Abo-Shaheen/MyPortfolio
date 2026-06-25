@@ -471,7 +471,8 @@ body.dark .header-btn {
 body.dark .footer-links1,
 body.dark .footer-links2,
 body.dark .footer-links3,
-body.dark .footer-links4 {
+body.dark .footer-links4,
+body.dark .img2b {
     background: rgba(80, 91, 109, 0.877);
     color: white;
 }
