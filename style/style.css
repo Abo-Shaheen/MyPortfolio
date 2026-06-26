@@ -438,7 +438,7 @@ body.dark .fixed-glass  {
 }
 
 body.dark .projects-section,
- .services-section  {
+body.dark  .services-section  {
     background: rgba(0, 0, 0, 0.452);
 }
 
