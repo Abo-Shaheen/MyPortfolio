@@ -7,7 +7,7 @@ document.getElementById('contact').addEventListener('click', () => {
 });
 
 document.getElementById('CV-btn').addEventListener('click', () => {
-    window.open('https://drive.google.com/file/d/1S50sNSR_PkVSbaKshbNVzVn9MlsEbb5K/view?usp=sharing', '_blank');
+    window.open('https://drive.google.com/file/d/1jxkwMFBnldtHX2FbkZxZ_4FxqJaAYtkC/view?usp=drive_link', '_blank');
 });
 
 document.getElementById('project-visit1').addEventListener('click', () => {
